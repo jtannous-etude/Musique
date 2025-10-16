@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: orange;
+  padding: 10px 20px;
+}
+
+.navbar img {
+  height: 50px;
+  margin-right: 20px;
+}
+
+.navbar h1 {
+  margin: 0;
+  color: white;
+}
+
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+input, select, textarea, button {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: orange;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkorange;
+}
+
+.activites {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.activite-card {
+  background-color: #fff7f0;
+  border: 1px solid orange;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  width: 250px;
+}
+
+.activite-card img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
