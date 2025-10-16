@@ -9,9 +9,7 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <nav>
-        <Link to="/">Accueil</Link> | <Link to="/preinscription">Préinscription</Link>
-      </nav>
+ 
       <Routes>
         <Route path="/" element={<Accueil />} />
         <Route path="/preinscription" element={<Preinscription />} />

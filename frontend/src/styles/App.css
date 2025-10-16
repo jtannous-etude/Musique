@@ -74,3 +74,19 @@ button:hover {
   border-radius: 10px;
   margin-bottom: 10px;
 }
+
+.navbar-links {
+  margin-left: auto;
+  display: flex;
+  gap: 15px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}

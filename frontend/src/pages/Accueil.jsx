@@ -1,5 +1,6 @@
 import React from "react";
 import ActiviteCard from "../components/ActiviteCard";
+import Actualites from "../components/Actualites";
 import eveilImg from "../assets/eveil.png";
 import laboImg from "../assets/labo.png";
 import cursusImg from "../assets/cursus.png";
@@ -17,6 +18,8 @@ function Accueil() {
       <div className="activites">
         {activites.map((act, i) => <ActiviteCard key={i} {...act} />)}
       </div>
+
+      <Actualites />
     </div>
   );
 }
